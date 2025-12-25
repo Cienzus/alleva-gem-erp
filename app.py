@@ -128,7 +128,7 @@ st.dataframe(
 st.info("💡 **Nota Operativa:** L'ERP blocca automaticamente il latte delle vacche segnate in 'Rosso' se viene inserito un trattamento farmacologico nel sistema.")
 
 # --- SEZIONE 2: CURVA DI LATTAZIONE (VISUALIZZAZIONE DATI) ---
-[span_5](start_span)st.subheader("📈 Analisi Curva di Lattazione[span_5](end_span)")
+st.subheader("📈 Analisi Curva di Lattazione")
 st.markdown("Visualizza la relazione tra giorni in lattazione (DIM) e produttività. I punti rossi indicano animali problematici (scostamento dalla curva ideale).")
 
 chart = alt.Chart(df).mark_circle(size=60).encode(
